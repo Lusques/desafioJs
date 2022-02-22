@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Seri.e javaScript</title>
+  <meta name="author" content="https://github.com/Lusques">
+  <meta name="description" content="Desafios para vaga desenvolvedor web respondidos.">
+  <link rel="shortcut icon" href="image/logo.png" type="image/png">
+  <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+  <section id="all-content">
+    <header class="header">
+      <div class="header__logo">
+        <a href="https://seriedesign.com.br/" target="_blank">
+          <img src="image/logo.png" alt="serie logomarca">
+        </a>
+      </div>
+      <p class="header__author">
+        <a href="https://github.com/Lusques" target="_blank">Lucas Silva</a>
+      </p>
+
+    </header>
+    <main class="main">
+      <div class="exercise ex1">
+        <div class="exercise__info">
+          <h2 class="title">Exercício 1</h2>
+          <p class="text">Faça um laço for de 0 a 100 que retorne um array com todos os números que são divisíveis por 7 e exiba no console.</p>
+        </div>
+        <div class="button">
+          <p>Executar</p>
+        </div>
+
+      </div>
+      <div class="exercise ex2">
+        <div class="exercise__info">
+          <h2 class="title">Exercício 2</h2>
+          <p class="text">Crie uma função que receba dois parâmetros, o primeiro chamado 'texto' (string) e o segundo chamado 'vezes' (número), com o objetivo retornar uma nova string com o texto repetido quantas vezes foi passado no parâmetro 'vezes', separado por vírgula. Exibir esta nova string no console.</p>
+        </div>
+        <div class="inputs">
+          <label for="string">string</label>
+          <input type="text" id="string">
+          <label for="vezes">vezes</label>
+          <input type="number" id="vezes" min="0" max="100">
+        </div>
+        <div class="button">
+          <p>Executar</p>
+        </div>
+
+      </div>
+      <div class="exercise ex3">
+        <div class="exercise__info">
+          <h2 class="title">Exercício 3</h2>
+          <p class="text">
+            Dado o seguinte HTML <br>
+            &lt;div class="pai">&lt;/div> <br>
+            &lt;div class="filho">&lt;/div> <br>
+            Qual o código seria necessário para inserir a div 'filho' dentro da div 'pai'?
+          </p>
+        </div>
+        <div class="content_ex3">
+          <div class="pai">
+            <p>pai</p>
+          </div>
+          <div class="filho">
+            <p>filho</p>
+          </div>
+        </div>
+        <div class=" button">
+          <p>Executar</p>
+        </div>
+
+      </div>
+      <div class="exercise ex4">
+        <div class="exercise__info">
+          <h2 class="title">Exercício 4</h2>
+          <p class="text">
+            Dado o seguinte HTML:
+            &lt;div> <br>
+            &lt;p>texto&lt;/p> <br>
+            &lt;p>texto&lt;/p> <br>
+            &lt;p>texto&lt;/p> <br>
+            &lt;/div> <br>
+            Como seria para:
+            alterar o texto do segundo parágrafo para 'Texto alterado';
+            inserir uma classe 'last' no último parágrafo
+          </p>
+        </div>
+        <div class="content_ex4">
+          <div>
+            <p>texto</p>
+            <p>texto</p>
+            <p>texto</p>
+          </div>
+        </div>
+        <div class=" button">
+          <p>Executar</p>
+        </div>
+
+      </div>
+      <div class="exercise ex5">
+        <div class="exercise__info">
+          <h2 class="title">Exercício 5</h2>
+          <p class="text">Com o uso do operador ternário, faça uma função que recebe uma idade (número) e retorne uma string, no console, com o texto "maior de idade" se o número maior que "18" ou "menor de idade", se o número for menor que "18"</p>
+        </div>
+        <div class="inputs">
+          <label for="idade" >idade</label>
+          <input type="number" id="idade" min="0">
+
+        </div>
+        <div class="button">
+          <p>Executar</p>
+        </div>
+
+      </div>
+      <div class="exercise ex6">
+        <div class="exercise__info">
+          <h2 class="title">Exercício 6</h2>
+          <p class="text">Dado o objeto: <br>
+            var obj = { <br>
+            nomeObj: 'Mouse', <br>
+            pesoObj: '150g' <br>
+            } <br>
+            Faça uma função que: <br>
+            modifique o nomeObj para 'Teclado' e o pesoObj para <br>'500g';
+            indexe em array; <br>
+            exiba o array no console.</p>
+        </div>
+        <div class="button">
+          <p>Executar</p>
+        </div>
+
+      </div>
+      <div class="exercise ex7">
+        <div class="exercise__info">
+          <h2 class="title">Exercício 7</h2>
+          <p class="text"> No texto 'Eu quero trabalhar na Seri.e Design', retorne no console, em variáveis diferentes:
+
+            O texto de trás para frente substituindo os espaços em branco por pontos de exclamação;
+            A última palavra do texto;
+            A quantidade de caracteres do texto;
+            O tipo de alguma variável criada acima.</p>
+        </div>
+        <div class="button">
+          <p>Executar</p>
+        </div>
+
+      </div>
+      <div class="exercise ex8">
+        <div class="exercise__info">
+          <h2 class="title">Exercício 8</h2>
+          <p class="text">Em uma lista de 5 divs: <br>
+            &lt;div>&lt;/div> <br>
+            &lt;div>&lt;/div> <br>
+            &lt;div>&lt;/div> <br>
+            &lt;div>&lt;/div> <br>
+            &lt;div>&lt;/div> <br>
+            faça uma função para adicionar o atributo 'data-id' em cada uma das divs, com o valor sendo a posição que se encontra a div na lista. Ex.: &lt;div data-id="2">&lt;/div></p>
+        </div>
+        <div>
+          <div>div 1</div>
+          <div>div 2</div>
+          <div>div 3</div>
+          <div>div 4</div>
+          <div>div 5</div>
+        </div>
+        <div class="button">
+          <p>Executar</p>
+        </div>
+
+      </div>
+      <div class="exercise ex9">
+        <div class="exercise__info">
+          <h2 class="title">Exercício 9</h2>
+          <p class="text">Dado o seguinte html:
+
+            &lt;div class="content"> <br>
+            &lt;ul> <br>
+            &lt;li>Categoria <br>
+            &lt;div class="subcontainer"> <br>
+            &lt;ul style="display: none;"> <br>
+            &lt;li>Subcategoria&lt;/li> <br>
+            &lt;/ul> <br>
+            &lt;/div> <br>
+            &lt;/li> <br>
+            &lt;/ul> <br>
+            &lt;/div> <br>
+            Faça um bloco javascript que trate o evento de click na palavra "Categoria" para: <br>
+
+            exibir a ul da subcategoria; <br>
+            adicione a classe "'active" na div "content" e na div "subcontainer".</p>
+        </div>
+        <div class="content_ex9">
+          <div class="content">
+            <ul>
+              <li>Categoria
+                <div class="subcontainer">
+                  <ul style="display: none;">
+                    <li>Subcategoria</li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+        </div>
+
+      </div>
+      <div class="exercise">
+        <div class="exercise__info">
+          <h2 class="title">Exercício 10</h2>
+          <p class="text">Resposta:<br><br>Observa o código por 5 segundos para encontrar o elemento. Caso não encontrado, a execução é interrompida.</p>
+        </div>
+
+      </div>
+    </main>
+    <footer class="footer">
+      <p>Copy&copy;2022</p>
+    </footer>
+  </section>
+  <script src="script/script.js"></script>
+</body>
+
+</html>

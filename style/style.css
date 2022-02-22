@@ -1,0 +1,212 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  transition: inherit;
+  transition: 0.6s;
+}
+
+img {
+  width: 100%;
+}
+
+#all-content {
+  min-height: 100vh;
+  width: 100%;
+  background-color: #f0f0f0;
+}
+
+.header {
+  margin-bottom: 50px;
+  height: 115px;
+  width: 100%;
+  padding: 0 50px;
+  background-color: #333;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header__logo {
+  width: 150px;
+}
+@media screen and (max-width: 550px) {
+  .header__logo {
+    width: 125px;
+  }
+}
+.header__author {
+  color: #fff;
+  font-size: 38px;
+}
+.header__author a {
+  color: inherit;
+}
+@media screen and (max-width: 550px) {
+  .header__author {
+    font-size: 28px;
+  }
+}
+@media screen and (max-width: 550px) {
+  .header {
+    padding: 0 25px;
+  }
+}
+
+.main {
+  min-height: 100vh;
+  width: 100%;
+  padding: 0 50px;
+}
+.main .exercise {
+  margin: 20px 0;
+  min-height: 300px;
+  width: 100%;
+  position: relative;
+  background: #fff;
+  box-shadow: 0px 3px 5px #e0e0e0;
+}
+.main .exercise__info {
+  margin-bottom: 20px;
+}
+.main .exercise__info .title {
+  margin-bottom: 15px;
+  font-weight: 500;
+  font-size: 38px;
+}
+.main .exercise .button {
+  min-height: 40px;
+  min-width: 120px;
+  width: fit-content;
+  padding: 5px 10px;
+  border-radius: 3px;
+  box-sizing: border-box;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 20px;
+  display: flex;
+  cursor: pointer;
+  background-color: #333;
+}
+.main .exercise .button > p {
+  font-size: 28px;
+  margin: auto;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.main .exercise.ex2, .main .exercise.ex5 {
+  height: 475px;
+}
+.main .exercise.ex2 .inputs, .main .exercise.ex5 .inputs {
+  width: fit-content;
+  margin: auto;
+}
+.main .exercise.ex2 .inputs input, .main .exercise.ex5 .inputs input {
+  height: 30px;
+  width: 250px;
+  border: solid 1px #333;
+  display: block;
+}
+.main .exercise.ex3 {
+  height: 500px;
+}
+.main .exercise.ex3 .content_ex3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+.main .exercise.ex3 .content_ex3 .pai {
+  padding: 30px;
+  height: 180px;
+  width: 180px;
+  position: relative;
+  background-color: #ff7b00;
+}
+.main .exercise.ex3 .content_ex3 .filho {
+  height: 120px;
+  width: 120px;
+  position: relative;
+  background-color: #00d733;
+}
+.main .exercise.ex3 .content_ex3 .pai > p,
+.main .exercise.ex3 .content_ex3 .filho > p {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: white;
+}
+.main .exercise.ex4 {
+  height: 550px;
+}
+.main .exercise.ex4 .content_ex4 {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  height: 180px;
+  width: 180px;
+  background-color: #0e82a8;
+}
+.main .exercise.ex4 .content_ex4 > div {
+  margin: auto;
+}
+.main .exercise.ex4 .content_ex4 p {
+  color: #fff;
+}
+.main .exercise.ex6 {
+  height: 450px;
+}
+.main .exercise.ex8 {
+  height: 525px;
+}
+.main .exercise.ex9 {
+  padding-bottom: 30px;
+  margin: auto;
+}
+.main .exercise.ex9 ul {
+  color: #fff;
+  font-size: 13px;
+  margin: auto;
+  height: 180px;
+  width: 180px;
+  background-color: #ff7b00;
+}
+.main .exercise.ex9 .subcontainer ul {
+  margin: auto;
+  height: 80px;
+  width: 80px;
+  background-color: #00d733;
+}
+@media screen and (max-width: 550px) {
+  .main {
+    padding: 0 25px;
+  }
+}
+
+.footer {
+  height: 115px;
+  width: 100%;
+  background-color: #333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer > p {
+  color: #fff;
+  font-size: 30px;
+}
+@media screen and (max-width: 550px) {
+  .footer > p {
+    font-size: 28px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
